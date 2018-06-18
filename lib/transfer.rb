@@ -22,7 +22,7 @@ class Transfer
     elsif status == 'pending'
       sender.balance -= amount
       receiver.balance += amount
-÷    end
+    end
   end
 
   def reverse_transfer
