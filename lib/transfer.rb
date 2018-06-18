@@ -22,6 +22,7 @@ class Transfer
     elsif status == 'pending'
       sender.balance -= amount
       receiver.balance += amount
+      @status = 'complete'
     end
   end
 
