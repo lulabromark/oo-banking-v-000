@@ -20,8 +20,9 @@ class Transfer
       sender.balance -= amount
       receiver.balance += amount
       @status = 'complete'
+      hi = 'hi'
     elsif sender.valid? == false
-      
+
     end
   end
 
